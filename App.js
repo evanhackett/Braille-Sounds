@@ -56,34 +56,35 @@ export default class App extends React.Component {
 
     switch (value) {
       case '⠁':
-        this.state.a1.playAsync().then(() => {console.log('Playing note: a1');})
+        this.state.a1.replayAsync().then(() => {console.log('Playing note: a1');})
         break;
       case '⠂':
-        this.state.b1.playAsync().then(() => {console.log('Playing note: b1');})
+        this.state.b1.replayAsync().then(() => {console.log('Playing note: b1');})
         break;
       case '⠄':
-        this.state.c1.playAsync().then(() => {console.log('Playing note: c1');})
+        this.state.c1.replayAsync().then(() => {console.log('Playing note: c1');})
         break;
       case '⠈':
-        this.state.d1.playAsync().then(() => {console.log('Playing note: d1');})
+        this.state.d1.replayAsync().then(() => {console.log('Playing note: d1');})
         break;
       case '⠐':
-        this.state.e1.playAsync().then(() => {console.log('Playing note: e1');})
+        this.state.e1.replayAsync().then(() => {console.log('Playing note: e1');})
         break;
       case '⠠':
-        this.state.f1.playAsync().then(() => {console.log('Playing note: f1');})
+        this.state.f1.replayAsync().then(() => {console.log('Playing note: f1');})
         break;
       case '⠃':
-        this.state.a1.playAsync().then(() => {console.log('Playing note: a1');})
-        this.state.b1.playAsync().then(() => {console.log('Playing note: b1');})
+        this.state.a1.replayAsync().then(() => {console.log('Playing note: a1');})
+        this.state.b1.replayAsync().then(() => {console.log('Playing note: b1');})
         break;
+      case '⠇':
       case '⠿':
-        this.state.a1.playAsync().then(() => {console.log('Playing note: a1');})
-        this.state.b1.playAsync().then(() => {console.log('Playing note: b1');})
-        this.state.c1.playAsync().then(() => {console.log('Playing note: c1');})
-        this.state.d1.playAsync().then(() => {console.log('Playing note: d1');})
-        this.state.e1.playAsync().then(() => {console.log('Playing note: e1');})
-        this.state.f1.playAsync().then(() => {console.log('Playing note: f1');})
+        this.state.a1.replayAsync().then(() => {console.log('Playing note: a1');})
+        this.state.b1.replayAsync().then(() => {console.log('Playing note: b1');})
+        this.state.c1.replayAsync().then(() => {console.log('Playing note: c1');})
+        this.state.d1.replayAsync().then(() => {console.log('Playing note: d1');})
+        this.state.e1.replayAsync().then(() => {console.log('Playing note: e1');})
+        this.state.f1.replayAsync().then(() => {console.log('Playing note: f1');})
         break;
       default:
         console.log('Unhandled case!');
