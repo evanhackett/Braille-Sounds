@@ -54,8 +54,6 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <SixKeyInput
           onChange={() => {}}
-          onDelete={() => {}}
-          clear={() => {}}
           onTouchStartFunctions={[1,2,3,4,5,6].map(this.createOnTouchStartFn)}
           onTouchEndFunctions={[1,2,3,4,5,6].map(this.createOnTouchEndFn)}
         />
